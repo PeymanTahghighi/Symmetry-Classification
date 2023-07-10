@@ -5,8 +5,8 @@ from albumentations.pytorch import ToTensorV2
 EPSILON = 1e-5
 LEARNING_RATE = 1e-4
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu';
-BATCH_SIZE = 1;
-IMAGE_SIZE =880
+BATCH_SIZE = 2;
+IMAGE_SIZE =1024
 WARMUP_EPOCHS = 10;
 D_PROJECT_ROOT = 'C:\\Users\\Admin\\OneDrive - University of Guelph\Miscellaneous\Diaphragm'
 ST_PROJECT_ROOT = 'C:\\Users\\Admin\\OneDrive - University of Guelph\Miscellaneous\\Sternum'
